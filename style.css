@@ -1,6 +1,5 @@
 * {
-  font-family: Georgia;
-  border: solid 1px black;
+  font-family: Helvetica, sans-serif;
 }
 
 #greencastle {
@@ -9,20 +8,58 @@
   margin-left: 30px;
 }
 
-p {
-  font-family: Helvetica, sans-serif;
+#line {
+    border-bottom-style: solid;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
-
-/*
-h2.profile {
-  display: block;
-  text-align: center;
-}
-*/
 
 img.profile {
   border-radius: 100%;
-  width: 15%;
+  width: 20%;
   display: block;
-  margin: 0px auto;
+  margin: 15px auto;
+}
+
+.header {
+    padding: 30px;
+    font-family: Georgia;
+/*    background-color: yellowgreen*/
+}
+
+.projects {
+    padding-top: 15px;
+}
+
+.projects > div {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.projects > div > .skills {
+    word-spacing: 10px;
+    font-weight: bold;
+    color: darkgrey;
+}
+
+.projects > div > .school {
+    font-weight: bold;
+    color: cadetblue;
+    margin: 5px;
+}
+
+.project {
+    margin-bottom: 30px;
+}
+
+.title {
+    font-weight: bold;
+}
+a {
+    color: black !important;
+    text-decoration: none !important;
+}
+
+a:hover { 
+    color: darkgrey!important;
 }
